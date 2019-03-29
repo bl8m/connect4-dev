@@ -27,6 +27,18 @@
             {
               "xml": "<feature name=\"md5chksum\"><param name=\"ios-package\" value=\"md5chksum\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
+              "count": 1
             }
           ],
           "/widget": [
@@ -62,6 +74,9 @@
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-file-downloader": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
@@ -314,6 +329,14 @@
       "clobbers": [
         "downloader"
       ]
+    },
+    {
+      "id": "cordova-plugin-statusbar.statusbar",
+      "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+      "pluginId": "cordova-plugin-statusbar",
+      "clobbers": [
+        "window.StatusBar"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -324,6 +347,7 @@
     "cordova-plugin-network-information": "2.0.1",
     "cordova-plugin-zip": "3.1.0",
     "cordova-plugin-file-md5": "0.3.3",
-    "cordova-plugin-file-downloader": "0.4.0"
+    "cordova-plugin-file-downloader": "0.4.0",
+    "cordova-plugin-statusbar": "2.4.2"
   }
 }

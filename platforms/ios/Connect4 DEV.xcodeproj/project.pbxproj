@@ -42,6 +42,7 @@
 		C76D59854EF64B21B7ADABAB /* ioapi.c in Resources */ = {isa = PBXBuildFile; fileRef = 58698F6AE1ED4B9CB1935047 /* ioapi.c */; };
 		A224BFC6484A4B11A99F2296 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9660267FDF48DC8A090244 /* libz.dylib */; };
 		BED8C739C2944EF49449E708 /* md5chksum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E14A687C144C7A91213BC /* md5chksum.m */; };
+		68AD5A3E4C7C4EB490FE8EC9 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D47518F210B342019F37278D /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,8 @@
 		EC9660267FDF48DC8A090244 /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
 		3E4E14A687C144C7A91213BC /* md5chksum.m */ = {isa = PBXFileReference; name = "md5chksum.m"; path = "cordova-plugin-file-md5/md5chksum.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		6A807482BCE64AFAB3B8910E /* md5chksum.h */ = {isa = PBXFileReference; name = "md5chksum.h"; path = "cordova-plugin-file-md5/md5chksum.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D47518F210B342019F37278D /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A457B4C0B37C414BAAA827EE /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,8 @@
 				4D9B67ECF253471A9E0B8388 /* crypt.h */,
 				3E4E14A687C144C7A91213BC /* md5chksum.m */,
 				6A807482BCE64AFAB3B8910E /* md5chksum.h */,
+				D47518F210B342019F37278D /* CDVStatusBar.m */,
+				A457B4C0B37C414BAAA827EE /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "Connect4 DEV/Plugins";
@@ -431,6 +436,7 @@
 				606B219EE2C148EA8C1D4DE3 /* mztools.c in Resources */,
 				C76D59854EF64B21B7ADABAB /* ioapi.c in Resources */,
 				BED8C739C2944EF49449E708 /* md5chksum.m in Sources */,
+				68AD5A3E4C7C4EB490FE8EC9 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

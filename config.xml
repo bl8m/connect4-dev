@@ -24,7 +24,7 @@
         <allow-intent href="itms-apps:*" />
         <preference name="AllowInlineMediaPlayback" value="true" />
 
-        <preference name="StatusBarOverlaysWebView" value="true" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
     </platform>
     <engine name="ios" spec="~4.5.5" />
     <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />
